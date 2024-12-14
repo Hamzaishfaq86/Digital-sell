@@ -6,16 +6,22 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ManageProduct  from './pages/ManageProduct'
+import Files from './pages/Files';
+import FileKeys from './pages/FileKeys';
+import Price from './pages/Price';
+import OrdersPage from './pages/Orders';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-<ButtonGroup>
-      <Button>Cancel</Button>
-      <Button variant="primary">Save</Button>
-    </ButtonGroup>
+    {/* <OrdersPage/> */}
+     <Price/>
+        {/* <FileKeys/> */}
+       {/* <ManageProduct/> */}
+        {/* <Files/> */}
      </>
   )
 }
