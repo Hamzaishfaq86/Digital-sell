@@ -12,13 +12,15 @@ import FileKeys from './pages/FileKeys';
 import Price from './pages/Price';
 import OrdersPage from './pages/Orders';
 import InputFeilds from './pages/InputFields';
+import Createdigitalproduct from './pages/Createdigitalproduct';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <InputFeilds/>
+<Createdigitalproduct/>
+    {/* <InputFeilds/> */}
     {/* <OrdersPage/> */}
      {/* <Price/> */}
         {/* <FileKeys/> */}
