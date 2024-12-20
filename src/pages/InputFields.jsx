@@ -18,14 +18,14 @@ function InputFeilds() {
       <FormLayout.Group>
         <TextField
         placeholder='example.myshopify.com'
-          type="number"
+         
           label="Shop Url"
           onChange={() => {}}
           autoComplete="off"
         />
         <TextField
         placeholder='Shop Token'
-          type="number"
+          
           label="Shop Token"
           onChange={() => {}}
           autoComplete="off"
@@ -36,15 +36,33 @@ function InputFeilds() {
       <FormLayout.Group>
         <TextField
         placeholder='Api Key'
-          type="number"
+          
           label="Api Key"
           onChange={() => {}}
           autoComplete="off"
         />
         <TextField 
         placeholder='Api secret'
-          type="number"
+     
           label="Api secret"
+          onChange={() => {}}
+          autoComplete="off"
+        />
+      </FormLayout.Group>
+    </FormLayout>
+    <FormLayout>
+      <FormLayout.Group>
+        <TextField
+        placeholder='username'
+          
+          label="Username"
+          onChange={() => {}}
+          autoComplete="off"
+        />
+        <TextField 
+        placeholder='Password'
+         
+          label="Password"
           onChange={() => {}}
           autoComplete="off"
         />
